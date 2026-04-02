@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "placesignseasy",
+  "version": "${version}",
+
+  "name": "placesignseasy",
+  "description": "No Sign GUI on placement",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/placesignseasy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": ["dev.creoii.placesignseasy.client.PlaceSignsEasyClient"],
+    "main": ["dev.creoii.placesignseasy.PlaceSignsEasy"]
+  },
+
+  "mixins": [
+    "placesignseasy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
