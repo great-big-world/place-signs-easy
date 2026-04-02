@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "placesignseasy",
-  "description": "No Sign GUI on placement",
+  "description": "Prevents the Sign edit GUI opening when placing Signs",
   "authors": [],
   "contact": {},
 
@@ -13,7 +13,6 @@
 
   "environment": "*",
   "entrypoints": {
-    "client": ["dev.creoii.placesignseasy.client.PlaceSignsEasyClient"],
     "main": ["dev.creoii.placesignseasy.PlaceSignsEasy"]
   },
 
