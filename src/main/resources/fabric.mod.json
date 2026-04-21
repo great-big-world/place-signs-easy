@@ -3,7 +3,7 @@
   "id": "placesignseasy",
   "version": "${version}",
 
-  "name": "placesignseasy",
+  "name": "Place Signs Easy",
   "description": "Prevents the Sign edit GUI opening when placing Signs",
   "authors": [],
   "contact": {},
@@ -24,5 +24,14 @@
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": {
+        "id": "great_big_world",
+        "name": "Great Big World",
+        "description": ""
+      }
+    }
   }
 }
